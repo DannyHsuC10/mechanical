@@ -5,7 +5,7 @@
 ## Stable structure analysis
 
 One truss with two joint
-$$m = 2n-3$$
+$m = 2n-3$
 
 $$2n = m+3$$
 
