@@ -1,16 +1,67 @@
-/* assets/css/custom.css */
-/* 全站文字 */
-body, p, li, span, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif !important;
+/* ========== 全站字體設定 ========== */
+body, p, li, span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222; /* 文字顏色 */
 }
 
-/* 標題 */
+/* 標題字體 */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
+    color: #157878; /* 可自訂顏色 */
 }
 
-/* 程式碼區保留 monospace */
-code, pre {
+/* 連結 */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* 代碼區塊 */
+pre, code {
     font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+/* 調整列表間距 */
+ul, ol {
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+}
+
+/* MathJax 調整，讓公式和文字統一字體 */
+.MathJax {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 1em !important;
+    color: #222 !important;
+}
+
+/* Mermaid 圖表樣式調整 */
+.mermaid {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/* 主區域 container */
+.main-content {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* Header 標題 */
+.page-header h1, .page-header h2 {
+    margin: 0;
+}
+
+/* Footer 調整 */
+.site-footer {
+    font-size: 0.85em;
+    color: #555;
+    padding: 1em 0;
+    border-top: 1px solid #ddd;
 }
