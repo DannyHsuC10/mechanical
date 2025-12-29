@@ -3,7 +3,7 @@ layout: my_layout
 math: true
 ---
 # mechanical
-
+1
 # Analysis of structures
 
 ## Stable structure analysis
