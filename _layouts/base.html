@@ -3,9 +3,14 @@
 <head>
   <meta charset="utf-8">
 
+  <!-- GitHub Primer（README 的真正來源） -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css">
+
+  <!-- 你的微調 -->
   <link rel="stylesheet" href="/assets/css/custom.css">
 
-  <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+  <title>{{ page.title }}</title>
 
   {% if page.math %}
   <script>
@@ -21,8 +26,8 @@
 </head>
 
 <body>
-  <main class="markdown-body">
+  <article class="markdown-body">
     {{ content }}
-  </main>
+  </article>
 </body>
 </html>
