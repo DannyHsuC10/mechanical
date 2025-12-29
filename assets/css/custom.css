@@ -1,10 +1,7 @@
 /* assets/css/custom.css */
-
-/* 全站字體 */
-body, .main-content {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
+/* 全站文字 */
+body, p, li, span, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 /* 標題 */
