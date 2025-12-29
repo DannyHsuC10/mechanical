@@ -1,0 +1,19 @@
+/* assets/css/custom.css */
+
+/* 全站字體 */
+body, .main-content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* 標題 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+/* 程式碼區保留 monospace */
+code, pre {
+    font-family: 'Courier New', monospace;
+}
