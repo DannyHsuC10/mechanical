@@ -4,7 +4,7 @@ math: true
 ---
 
 # Analysis of structures
-
+1
 ## Stable structure analysis
 
 One truss with two joint
