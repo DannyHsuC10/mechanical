@@ -21,27 +21,26 @@
 
 <body>
 
+  <!-- ===== 開頭段 (在外層容器外) ===== -->
+  <header class="page-intro">
+    <h1 class="page-title">note</h1>
+    <p class="page-description">每個頁面開頭的固定文字</p>
+  </header>
+
+  <!-- ===== 內容區塊 (小框框) ===== -->
   <div class="content">
-    <!-- ===== 固定開頭段 ===== -->
-    <section class="page-intro">
-      <h1 class="page-title">note</h1>
-      <p class="page-description">這是每個頁面的開頭固定文字說明。</p>
-    </section>
-
-    <!-- ===== Markdown 內容 ===== -->
-    <article class="markdown-body">
+    <main id="content" class="markdown-body">
       {{ content }}
-    </article>
-
-    <!-- ===== 結尾段 ===== -->
-    <section class="page-outro">
-      <hr>
-      <p class="page-footer">
-        © {{ site.time | date: "%Y" }} · Notes by {{ site.author | default: "Danny" }}
-      </p>
-    </section>
-
+    </main>
   </div>
 
+  <!-- ===== 結尾段 (在外層容器外) ===== -->
+  <footer class="page-end">
+    <p>這是每個頁面的結尾文字</p>
+  </footer>
+
 </body>
+
 </html>
+
+
