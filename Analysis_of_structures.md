@@ -1,7 +1,5 @@
 
-
-
-# Analysis of structures2
+# Analysis of structures
 
 ## Stable structure analysis
 
